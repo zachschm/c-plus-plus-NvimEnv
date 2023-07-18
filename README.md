@@ -1,1 +1,15 @@
 # c-plus-plus-NvimEnv
+I am sharing my ultimate C++ Linux development environment. This comprehensive setup will revolutionize your Linux experience by seamlessly integrating powerful development tools. With this configuration, your Linux environment will rival even the most powerful IDEs, offering a tailored C++ experience that is potentially the first of its kind.
+
+While there are numerous helpful guides available for setting up Linux and Neovim (Nvim), a highly versatile text editor, I found that none of them fully catered to creating a specific C++ environment. Hence, I have invested countless hours perfecting this environment, experimenting through trial and error. I even learned Lua, the scripting language that powers Nvim, to fine-tune the environment to perfection. 
+
+This extraordinary development environment is made possible through the power of Nvim, an enhanced version of Vim. Nvim is renowned for its extensive array of plugins and customizable options, elevating the editing experience to unparalleled heights. If you’re a developer and haven't explored the realm of Vim commands, you're overlooking an incredible opportunity to dramatically enhance your productivity across all programming languages.
+
+Vim command plugins consistently top the charts as the most downloaded plugins for any IDE, proving the immense impact of leveraging Vim commands. The widespread adoption and popularity of these plugins testify to the effect they have on coding efficiency. By embracing Vim commands, you unlock a world of possibilities, enabling lightning-fast editing, streamlined navigation, and powerful text manipulation capabilities.
+
+In this environment, I leverage the following plugins and features: great key mapping and Nvim customizations, Vim color schemes, Nvim-tree file explorer, Telescope, auto pairing, nvim-cmp, comment integration, lualine, Mason, Tree Sitter, Nerd Fonts, Clangd, ClangFormat, luasnip, and many others. These components collectively enable smart snippets, file exploration, automatic code formatting, language server protocol (LSP) integration, and efficient auto-completion. Noteworthy improvements have been made to Git version control, Vim's appearance, window management, keybindings, and various other aspects. 
+
+By adopting this setup, your productivity will soar, and you'll find immense joy in your development endeavors. Reproducing this environment should be a breeze; simply pull the entire file structure into your `.config` directory. Don't worry—I will provide detailed explanations regarding the file structure and setup on GitHub.
+
+I must acknowledge one shortcoming in this setup: debugging. Despite investing significant time, I encountered obstacles when trying to incorporate `nvim-dap`, a debugger extension. I exhaustively experimented with various C++ compilers and attempted multiple integration approaches, but unfortunately, I couldn't achieve executable debugging, particularly on macOS. I hope to integrate this in the future, as well as continuously update and make improvements over time.
+
